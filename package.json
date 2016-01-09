@@ -1,0 +1,28 @@
+{
+  "name": "sps",
+  "version": "1.0.0",
+  "description": "Particle System with Simulation Helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezaali/sps.js.git"
+  },
+  "keywords": [
+    "simulation",
+    "generative",
+    "particle",
+    "system",
+    "webgl",
+    "dynamics",
+    "solver"
+  ],
+  "author": "Syed Reza Ali <syed.reza.ali@gmail.com> (http://www.syedrezaali.com/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rezaali/sps.js/issues"
+  },
+  "homepage": "https://github.com/rezaali/sps.js#readme"
+}
