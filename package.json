@@ -1,6 +1,6 @@
 {
   "name": "sps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Particle System with Simulation Helpers",
   "main": "index.js",
   "scripts": {
