@@ -4,7 +4,9 @@ exports.Particle = require('./sps/Core/Particle');
 exports.ParticleSystem = require('./sps/Core/ParticleSystem');
 exports.Spring = require('./sps/Core/Spring');
 // Solvers
-// exports.Solver = require('./sps/Solvers/Solver');
+exports.EulerSolver = require('./sps/Solvers/Euler');
+exports.VerletSolver = require('./sps/Solvers/Verlet');
+exports.RungeKuttaSolver = require('./sps/Solvers/RungeKutta');
 // exports.VerletSolver = require('./sps/Solvers/VerletSolver');
 
 // Behaviors
