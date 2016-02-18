@@ -14,11 +14,11 @@ Springs.prototype.actUpon = function( particle, pos, vel, acc, dt ) {
   for( var i = 0; i < slen; i++ ) {
     var s = springs[ i ];
     var other = s.p0 === particle ? s.p1 : s.p0;
-    vec3.subtract( tmp, particle.getPos(), other.getPos() );
+    vec3.subtract( tmp, particle.getPrevPos(), other.getPrevPos() );
     var dist = vec3.length( tmp );
     vec3.normalize( tmp, tmp );
     var delta = s.length - dist;
-    vec3.scale( tmp, tmp, s.k * delta * this.magnitude * dt );
+    vec3.scale( tmp, tmp, s.k * delta * this.magnitude * dt / slen );
     vec3.add( acc, acc, tmp );
   }
 };

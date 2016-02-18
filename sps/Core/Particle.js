@@ -1,7 +1,7 @@
 var vec3 = require('gl-matrix').vec3;
 
 function Particle() {
-  this.index = -1; 
+  this.index = -1;
   this.fixed = false;
   this.home = vec3.create();
   this.pos = vec3.create();
@@ -9,6 +9,7 @@ function Particle() {
   this.vel = vec3.create();
   this.acc = vec3.create();
   this.springs = [];
+  this.angles = [];
 };
 
 Particle.prototype.setIndex = function( index ) {
@@ -82,6 +83,14 @@ Particle.prototype.addSpring = function( spring ) {
 
 Particle.prototype.getSprings = function() {
   return this.springs;
+};
+
+Particle.prototype.addAngle = function( angle ) {
+  this.angles.push( angle );
+};
+
+Particle.prototype.getAngles = function() {
+  return this.angles;
 };
 
 module.exports = Particle;

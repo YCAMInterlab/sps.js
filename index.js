@@ -3,6 +3,7 @@
 exports.Particle = require('./sps/Core/Particle');
 exports.ParticleSystem = require('./sps/Core/ParticleSystem');
 exports.Spring = require('./sps/Core/Spring');
+exports.Angle = require('./sps/Core/Angle');
 // Solvers
 exports.EulerSolver = require('./sps/Solvers/Euler');
 exports.VerletSolver = require('./sps/Solvers/Verlet');
@@ -16,6 +17,8 @@ exports.HomingBehavior = require('./sps/Behaviors/Homing');
 exports.VortexBehavior = require('./sps/Behaviors/Vortex');
 exports.AttractorBehavior = require('./sps/Behaviors/Attractor');
 exports.SpringsBehavior = require('./sps/Behaviors/Springs');
+exports.AnglesBehavior = require('./sps/Behaviors/Angles');
+exports.ForceBehavior = require('./sps/Behaviors/Force');
 
 // exports.ForceBehavior = require('./sps/Behavior/Force');
 // exports.SphericalAttractionBehavior = require('./sps/Behavior/SphericalAttraction');
