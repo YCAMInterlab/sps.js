@@ -1,5 +1,6 @@
 
 // Core
+exports.Physics = require('./sps/Core/Physics');
 exports.Particle = require('./sps/Core/Particle');
 exports.ParticleSystem = require('./sps/Core/ParticleSystem');
 exports.Spring = require('./sps/Core/Spring');

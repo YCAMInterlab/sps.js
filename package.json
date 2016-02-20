@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rezaali/sps.js.git"
+    "url": "git+https://github.com/YCAMInterlab/sps.js.git"
   },
   "keywords": [
     "simulation",
@@ -22,9 +22,9 @@
   "author": "Syed Reza Ali <syed.reza.ali@gmail.com> (http://www.syedrezaali.com/)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/rezaali/sps.js/issues"
+    "url": "https://github.com/YCAMInterlab/sps.js/issues"
   },
-  "homepage": "https://github.com/rezaali/sps.js#readme",
+  "homepage": "https://github.com/YCAMInterlab/sps.js#readme",
   "dependencies": {
     "gl-matrix": "^2.3.1",
     "mhf": "^1.0.2"

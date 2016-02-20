@@ -13,6 +13,7 @@ function Angle( particle0, particle1, particle2, particle3, opts ) {
   this.p2 = particle2;
   this.p3 = particle3;
   this.k = opts.k != undefined ? opts.k : 1.0;
+  this.bias = opts.bias != undefined ? opts.bias : 0.5;
   this.angle = 0.0;
   if( opts.angle != undefined ) {
     this.angle = opts.angle;
